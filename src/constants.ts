@@ -1,12 +1,10 @@
 import type { Props } from "astro";
 import IconMail from "@/assets/icons/IconMail.svg";
 import IconGitHub from "@/assets/icons/IconGitHub.svg";
-import IconBrandX from "@/assets/icons/IconBrandX.svg";
-import IconLinkedin from "@/assets/icons/IconLinkedin.svg";
-import IconWhatsapp from "@/assets/icons/IconWhatsapp.svg";
 import IconFacebook from "@/assets/icons/IconFacebook.svg";
+import IconX from "@/assets/icons/IconX.svg";
 import IconTelegram from "@/assets/icons/IconTelegram.svg";
-import IconPinterest from "@/assets/icons/IconPinterest.svg";
+import IconRss from "@/assets/icons/IconRss.svg";
 import { SITE } from "@/config";
 
 interface Social {
@@ -22,6 +20,12 @@ export const SOCIALS: Social[] = [
     href: "https://facebook.com/ryan.parkr",
     linkTitle: `${SITE.title} on Facebook`,
     icon: IconFacebook,
+  },
+  {
+    name: "Github",
+    href: "https://github.com/RyanParkr1",
+    linkTitle: `${SITE.title} on Github`,
+    icon: IconGithub,
   },
   {
     name: "Mail",
