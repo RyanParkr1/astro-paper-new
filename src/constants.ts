@@ -2,7 +2,7 @@ import type { Props } from "astro";
 import IconMail from "@/assets/icons/IconMail.svg";
 import IconGitHub from "@/assets/icons/IconGitHub.svg";
 import IconFacebook from "@/assets/icons/IconFacebook.svg";
-import IconX from "@/assets/icons/IconX.svg";
+import IconX from "@/assets/icons/IconBrandX.svg";
 import IconTelegram from "@/assets/icons/IconTelegram.svg";
 import IconRss from "@/assets/icons/IconRss.svg";
 import { SITE } from "@/config";
@@ -25,7 +25,7 @@ export const SOCIALS: Social[] = [
     name: "Github",
     href: "https://github.com/RyanParkr1",
     linkTitle: `${SITE.title} on Github`,
-    icon: IconGithub,
+    icon: IconGitHub,
   },
   {
     name: "Mail",
