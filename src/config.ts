@@ -1,6 +1,6 @@
 export const SITE = {
   website: "https://ryan-parker.vercel.app/", // replace this with your deployed domain
-  author: Ryan Parker",
+  author: "Ryan Parker",
   profile: "https://ryan-parker.vercel.app/",
   desc: "My personal blog where I publish long form thoughts on many different topics.",
   title: "Ryan Parker",
